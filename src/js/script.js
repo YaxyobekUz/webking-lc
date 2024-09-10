@@ -9,6 +9,7 @@ const elFirstName = document.querySelector(".js-first-name");
 const elPhoneNumber = document.querySelector(".js-phone-number");
 const elRegisterForm = document.querySelector(".js-register-form");
 const elClassSelect = document.querySelector(".js-class-select");
+const elEshitdiz = document.querySelector(".js-eshitdiz");
 
 // get input value
 const getInputValue = (input) => {
@@ -23,6 +24,7 @@ const sendRequest = (e) => {
   const message = `👤 Ismi: ${getInputValue(elFirstName)}
 👥 Familiyasi: ${getInputValue(elLastName)}
 ☎️ Telefon raqami: ${getInputValue(elPhoneNumber)}
+👥 Eshitdi: ${getInputValue(elEshitdiz)}
 📚 Yo'nalish: ${getInputValue(elClassSelect)}`;
 
   // form data
